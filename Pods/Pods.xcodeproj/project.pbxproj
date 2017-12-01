@@ -7,29 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1A1AFE75582536BC77A7506AD6A0FE /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D269B98B57E56040F729F7EB45A57 /* UIImage+Gif.swift */; };
+		202E40AB15ACB4280B3FD0121BA371C4 /* Pods-Trickster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5DD7BC41F78E7F24B9CC1EA504EDE /* Pods-Trickster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		333F8A8B35C304D524A1A9A515C59693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3928415DBB9437C8D139134F3AF10560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		39782E0D85B4783B5315C0E6392D1019 /* Pods-Trickster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F869109E5A64C63F93B116F6265A47 /* Pods-Trickster-dummy.m */; };
+		6599699D36866CF0A3EEF3B0E621390F /* SwiftGifOrigin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A79597D7691CDD2E78B165697E47D33 /* SwiftGifOrigin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DDBC8E09B4F6058530C9372BEA0DE5C /* Pods-TricksterTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FB479AD9A6D7273D304C9D6B11E87E /* Pods-TricksterTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D7709C73D9EDBB84DECFB242999C53 /* Pods-Trickster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5DD7BC41F78E7F24B9CC1EA504EDE /* Pods-Trickster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		817EC1939A5F954CD0823A0A3F2E4AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A31DD8C3C243175689FA01C17713891F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B8BD55AECE1676F32BC750D22D8327F3 /* Pods-TricksterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA96DB870E7AA29A8F670B58E23852B9 /* Pods-TricksterTests-dummy.m */; };
+		D765EBBEA2E8E4660B2979D933167B07 /* SwiftGifOrigin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4196D8AF155DA5471346375971BE66 /* SwiftGifOrigin-dummy.m */; };
+		F925957655861D769D93D38F3401B8BF /* Pods-Trickster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F869109E5A64C63F93B116F6265A47 /* Pods-Trickster-dummy.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8BC487BFB1A691DB544FC77B6619C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38D4EC9FE712717B15A0510CFF56A04B;
+			remoteInfo = SwiftGifOrigin;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02BF5EE9D955AAE1087FF38A5660290D /* Pods-TricksterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TricksterTests-frameworks.sh"; sourceTree = "<group>"; };
 		042D5E591AE6E43A619313AC5FEE50A1 /* Pods-TricksterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TricksterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A79597D7691CDD2E78B165697E47D33 /* SwiftGifOrigin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-umbrella.h"; sourceTree = "<group>"; };
+		0C907120A7715AB90284F3F20C89C58C /* SwiftGifOrigin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-prefix.pch"; sourceTree = "<group>"; };
 		17FB479AD9A6D7273D304C9D6B11E87E /* Pods-TricksterTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TricksterTests-umbrella.h"; sourceTree = "<group>"; };
 		20BB0D8EB90BD0BD32C9B4953CD2DA03 /* Pods-TricksterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TricksterTests.debug.xcconfig"; sourceTree = "<group>"; };
-		243A8BEF31802F930D93AB98832FF1D7 /* Pods_Trickster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Trickster.framework; path = "Pods-Trickster.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F869109E5A64C63F93B116F6265A47 /* Pods-Trickster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Trickster-dummy.m"; sourceTree = "<group>"; };
 		2BB5DD7BC41F78E7F24B9CC1EA504EDE /* Pods-Trickster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Trickster-umbrella.h"; sourceTree = "<group>"; };
 		34E2DD553774C0706AE39D12D7A7286F /* Pods-TricksterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TricksterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3CC377285031A24CC46930F0DF223FC2 /* Pods-Trickster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Trickster.release.xcconfig"; sourceTree = "<group>"; };
+		3DD5FEF2EEEFDA35D5FF388345DAA171 /* Pods_Trickster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Trickster.framework; path = "Pods-Trickster.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4744C464C05E0CDC9CCFA81C45A2E432 /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftGifOrigin.framework; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C36BD2A1BBF9D90105FE89CDE5CE2F9 /* Pods-Trickster-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Trickster-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F82892FA6028D0F84BB9EC798A2E7CE /* SwiftGifOrigin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftGifOrigin.modulemap; sourceTree = "<group>"; };
+		63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGifOrigin.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68198F59AD189A18C4D94AE926822CB6 /* Pods-TricksterTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TricksterTests.modulemap"; sourceTree = "<group>"; };
-		7B2AC083E2BE34D4272A8FEFE66F7B84 /* Pods_TricksterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TricksterTests.framework; path = "Pods-TricksterTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		772627B8C907F857E26398194979672E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844AB0B8E2B53384931E1C17C84AF43E /* Pods_TricksterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TricksterTests.framework; path = "Pods-TricksterTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A38D269B98B57E56040F729F7EB45A57 /* UIImage+Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "SwiftGifCommon/UIImage+Gif.swift"; sourceTree = "<group>"; };
 		AE18C6FB577E91C0E54D2768DBD5F4D9 /* Pods-Trickster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Trickster.modulemap"; sourceTree = "<group>"; };
 		B0C8359B22161E65C0B71CCB4270FF7C /* Pods-Trickster-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Trickster-resources.sh"; sourceTree = "<group>"; };
 		B5F64DAF19D9E188D7CC6DF450D6E572 /* Pods-Trickster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Trickster.debug.xcconfig"; sourceTree = "<group>"; };
@@ -40,17 +61,10 @@
 		DF3279CCB13EC424E8B577F0AC3ABADD /* Pods-TricksterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TricksterTests.release.xcconfig"; sourceTree = "<group>"; };
 		F773088C405FC35EF90DC44CC10EE84F /* Pods-Trickster-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Trickster-acknowledgements.plist"; sourceTree = "<group>"; };
 		F88F34327628492847F8EE8881EC3C89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4196D8AF155DA5471346375971BE66 /* SwiftGifOrigin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftGifOrigin-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3BE1C285C3C664C67F09AA2516E906FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3928415DBB9437C8D139134F3AF10560 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4ABED35EC4523398D2840E14B0451361 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,9 +73,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		706B20945FE61B08F3B977384A2323AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31DD8C3C243175689FA01C17713891F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C326977EAA3A7274749D576AA085C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817EC1939A5F954CD0823A0A3F2E4AF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FD8CE5DEB17C1C76F236ADF231BD040 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				772627B8C907F857E26398194979672E /* Info.plist */,
+				5F82892FA6028D0F84BB9EC798A2E7CE /* SwiftGifOrigin.modulemap */,
+				63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */,
+				FA4196D8AF155DA5471346375971BE66 /* SwiftGifOrigin-dummy.m */,
+				0C907120A7715AB90284F3F20C89C58C /* SwiftGifOrigin-prefix.pch */,
+				0A79597D7691CDD2E78B165697E47D33 /* SwiftGifOrigin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGifOrigin";
+			sourceTree = "<group>";
+		};
+		26699727C250983FF494AD0DE3CFBC88 /* SwiftGifOrigin */ = {
+			isa = PBXGroup;
+			children = (
+				A38D269B98B57E56040F729F7EB45A57 /* UIImage+Gif.swift */,
+				1FD8CE5DEB17C1C76F236ADF231BD040 /* Support Files */,
+			);
+			name = SwiftGifOrigin;
+			path = SwiftGifOrigin;
+			sourceTree = "<group>";
+		};
 		2A0C548AA11C833DB9067D0E988FE460 /* Pods-TricksterTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,15 +152,6 @@
 			path = "Target Support Files/Pods-Trickster";
 			sourceTree = "<group>";
 		};
-		374FC185842109563218224FDF274B63 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				243A8BEF31802F930D93AB98832FF1D7 /* Pods_Trickster.framework */,
-				7B2AC083E2BE34D4272A8FEFE66F7B84 /* Pods_TricksterTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		565A98775D94F0BFD5B293E83FE6D52F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,12 +161,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6C3F23C8DAD3FC5769B2867BC9DAC8F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD5FEF2EEEFDA35D5FF388345DAA171 /* Pods_Trickster.framework */,
+				844AB0B8E2B53384931E1C17C84AF43E /* Pods_TricksterTests.framework */,
+				4744C464C05E0CDC9CCFA81C45A2E432 /* SwiftGifOrigin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				374FC185842109563218224FDF274B63 /* Products */,
+				CBDE1A1234E4B1D43F65A57BED38E87C /* Pods */,
+				6C3F23C8DAD3FC5769B2867BC9DAC8F1 /* Products */,
 				565A98775D94F0BFD5B293E83FE6D52F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -132,6 +188,14 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBDE1A1234E4B1D43F65A57BED38E87C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26699727C250983FF494AD0DE3CFBC88 /* SwiftGifOrigin */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -153,11 +217,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59518F4EDB6EB3B8DC98A9C173A529D9 /* Headers */ = {
+		91B45F0F679E71A0539D9F2FA22E6D23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73D7709C73D9EDBB84DECFB242999C53 /* Pods-Trickster-umbrella.h in Headers */,
+				202E40AB15ACB4280B3FD0121BA371C4 /* Pods-Trickster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E51B755A7DCBFDC0BFA7441A17DA596B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6599699D36866CF0A3EEF3B0E621390F /* SwiftGifOrigin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,24 +250,42 @@
 			);
 			name = "Pods-TricksterTests";
 			productName = "Pods-TricksterTests";
-			productReference = 7B2AC083E2BE34D4272A8FEFE66F7B84 /* Pods_TricksterTests.framework */;
+			productReference = 844AB0B8E2B53384931E1C17C84AF43E /* Pods_TricksterTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8AF665E97160D1DE1F47FCB1BB5510FC /* Pods-Trickster */ = {
+		2B931E21A5101B84ABCD473F2011596A /* Pods-Trickster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08096F4F1530765AA1FACE2267FF3E71 /* Build configuration list for PBXNativeTarget "Pods-Trickster" */;
+			buildConfigurationList = 76FD36D89B51C928FD1FC97A7026D659 /* Build configuration list for PBXNativeTarget "Pods-Trickster" */;
 			buildPhases = (
-				A2B1FB0A4CB6DC30077967981DB2D1E7 /* Sources */,
-				3BE1C285C3C664C67F09AA2516E906FE /* Frameworks */,
-				59518F4EDB6EB3B8DC98A9C173A529D9 /* Headers */,
+				8C9C184F5C6F912D8168DEFB8158E865 /* Sources */,
+				706B20945FE61B08F3B977384A2323AD /* Frameworks */,
+				91B45F0F679E71A0539D9F2FA22E6D23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5452D2D7C5374DFBB37B368B78AB501A /* PBXTargetDependency */,
+			);
+			name = "Pods-Trickster";
+			productName = "Pods-Trickster";
+			productReference = 3DD5FEF2EEEFDA35D5FF388345DAA171 /* Pods_Trickster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38D4EC9FE712717B15A0510CFF56A04B /* SwiftGifOrigin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F85A19994DB9FACE992601C6A0CE2E /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */;
+			buildPhases = (
+				ADC36FF58C4E81B87284B5B5B938CEB5 /* Sources */,
+				F6C326977EAA3A7274749D576AA085C1 /* Frameworks */,
+				E51B755A7DCBFDC0BFA7441A17DA596B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Trickster";
-			productName = "Pods-Trickster";
-			productReference = 243A8BEF31802F930D93AB98832FF1D7 /* Pods_Trickster.framework */;
+			name = SwiftGifOrigin;
+			productName = SwiftGifOrigin;
+			productReference = 4744C464C05E0CDC9CCFA81C45A2E432 /* SwiftGifOrigin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -215,22 +305,23 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 374FC185842109563218224FDF274B63 /* Products */;
+			productRefGroup = 6C3F23C8DAD3FC5769B2867BC9DAC8F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8AF665E97160D1DE1F47FCB1BB5510FC /* Pods-Trickster */,
+				2B931E21A5101B84ABCD473F2011596A /* Pods-Trickster */,
 				0A3BB808AA65114F23877F93CC197326 /* Pods-TricksterTests */,
+				38D4EC9FE712717B15A0510CFF56A04B /* SwiftGifOrigin */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A2B1FB0A4CB6DC30077967981DB2D1E7 /* Sources */ = {
+		8C9C184F5C6F912D8168DEFB8158E865 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39782E0D85B4783B5315C0E6392D1019 /* Pods-Trickster-dummy.m in Sources */,
+				F925957655861D769D93D38F3401B8BF /* Pods-Trickster-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,45 +333,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADC36FF58C4E81B87284B5B5B938CEB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D765EBBEA2E8E4660B2979D933167B07 /* SwiftGifOrigin-dummy.m in Sources */,
+				1B1A1AFE75582536BC77A7506AD6A0FE /* UIImage+Gif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		16C32AFB0133DA539C996B4C42814DA0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CC377285031A24CC46930F0DF223FC2 /* Pods-Trickster.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Trickster/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Trickster/Pods-Trickster.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Trickster;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+/* Begin PBXTargetDependency section */
+		5452D2D7C5374DFBB37B368B78AB501A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGifOrigin;
+			target = 38D4EC9FE712717B15A0510CFF56A04B /* SwiftGifOrigin */;
+			targetProxy = D8BC487BFB1A691DB544FC77B6619C28 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
 		33F8F7AAAA85E50D89ADDD29179D4D1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -374,6 +447,118 @@
 			};
 			name = Debug;
 		};
+		84619F7EDFAFBE8AA89ABCD688B48C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F64DAF19D9E188D7CC6DF450D6E572 /* Pods-Trickster.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Trickster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Trickster/Pods-Trickster.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Trickster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97556324AB9F31C9F79A24B6A81C6AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC348B38A9CC3E0EDFF6E7088FDCE68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC377285031A24CC46930F0DF223FC2 /* Pods-Trickster.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Trickster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Trickster/Pods-Trickster.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Trickster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E53EC92247FDDF296BFE61C402F8A1EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF3279CCB13EC424E8B577F0AC3ABADD /* Pods-TricksterTests.release.xcconfig */;
@@ -410,41 +595,40 @@
 			};
 			name = Release;
 		};
-		FCD15CE2440B4B1094DF42F7560E4741 /* Debug */ = {
+		F7EEC2BFEF56E52AF93A9D28EBAA7635 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5F64DAF19D9E188D7CC6DF450D6E572 /* Pods-Trickster.debug.xcconfig */;
+			baseConfigurationReference = 63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Trickster/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Trickster/Pods-Trickster.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Trickster;
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftGifOrigin;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		FD8B33EA4E5827EB113AB0E58FD9668B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -485,11 +669,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08096F4F1530765AA1FACE2267FF3E71 /* Build configuration list for PBXNativeTarget "Pods-Trickster" */ = {
+		19F85A19994DB9FACE992601C6A0CE2E /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCD15CE2440B4B1094DF42F7560E4741 /* Debug */,
-				16C32AFB0133DA539C996B4C42814DA0 /* Release */,
+				97556324AB9F31C9F79A24B6A81C6AFD /* Debug */,
+				F7EEC2BFEF56E52AF93A9D28EBAA7635 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -499,6 +683,15 @@
 			buildConfigurations = (
 				56730A192FBFEB01207F5FA841EB3964 /* Debug */,
 				33F8F7AAAA85E50D89ADDD29179D4D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FD36D89B51C928FD1FC97A7026D659 /* Build configuration list for PBXNativeTarget "Pods-Trickster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84619F7EDFAFBE8AA89ABCD688B48C86 /* Debug */,
+				AC348B38A9CC3E0EDFF6E7088FDCE68B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

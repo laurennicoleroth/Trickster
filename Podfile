@@ -6,6 +6,7 @@ target 'Trickster' do
   use_frameworks!
 
   # Pods for Trickster
+  pod 'SwiftGifOrigin'
 
   target 'TricksterTests' do
     inherit! :search_paths
