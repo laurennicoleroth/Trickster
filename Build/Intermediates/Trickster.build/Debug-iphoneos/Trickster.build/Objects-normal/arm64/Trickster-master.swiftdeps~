@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "644fe6435910354789410b28d43539ba"
+build_time: [1512088389, 395587000]
+inputs:
+  "/Users/laurennicoleroth/Development/iOS/Trickster/Trickster/ViewController.swift": [1512088387, 0]
+  "/Users/laurennicoleroth/Development/iOS/Trickster/Trickster/AppDelegate.swift": [1512088387, 0]
