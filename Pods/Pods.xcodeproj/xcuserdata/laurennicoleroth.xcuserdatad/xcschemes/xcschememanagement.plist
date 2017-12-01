@@ -23,6 +23,11 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SwiftyGif.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
 	</dict>
