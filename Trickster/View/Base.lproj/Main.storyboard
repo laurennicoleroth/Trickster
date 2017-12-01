@@ -94,6 +94,9 @@
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="trickCompletedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tpy-aJ-8qL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89M-bd-umz" userLabel="True Button">
                                         <rect key="frame" x="25" y="60" width="128" height="56"/>
@@ -112,6 +115,9 @@
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="trickCompletedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nyG-h5-2Jd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.168471396" green="0.51802176239999997" blue="0.82454192640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -149,8 +155,6 @@
                     </view>
                     <connections>
                         <outlet property="demoImage" destination="H5R-hv-z5A" id="Viq-Dq-jTa"/>
-                        <outlet property="failButton" destination="Ky0-74-99V" id="1F3-7b-al4"/>
-                        <outlet property="successButton" destination="89M-bd-umz" id="PCP-n4-1zl"/>
                         <outlet property="trickNumberLabel" destination="JKk-gi-aY2" id="KUp-Ka-lR8"/>
                     </connections>
                 </viewController>

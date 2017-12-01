@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		44C0BED137AF1C5C72747A82 /* Pods_Trickster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DABAE02F6D12D29D381FCE /* Pods_Trickster.framework */; };
+		96148B151FD106AD0041D78A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96148B141FD106AD0041D78A /* Default-568h@2x.png */; };
 		96D8627C1FD0DAC300F02776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D8627B1FD0DAC300F02776 /* AppDelegate.swift */; };
 		96D8627E1FD0DAC300F02776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D8627D1FD0DAC300F02776 /* ViewController.swift */; };
 		96D862811FD0DAC300F02776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D8627F1FD0DAC300F02776 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		0808B7D3B8270C7A28A4A8AE /* Pods-TricksterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TricksterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TricksterTests/Pods-TricksterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		094A874F2926D3ABFB535B36 /* Pods-TricksterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TricksterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TricksterTests/Pods-TricksterTests.release.xcconfig"; sourceTree = "<group>"; };
 		89F7035BB29519ED8471280F /* Pods_TricksterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TricksterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96148B141FD106AD0041D78A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		96D862781FD0DAC300F02776 /* Trickster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trickster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D8627B1FD0DAC300F02776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96D8627D1FD0DAC300F02776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		96D8626F1FD0DAC300F02776 = {
 			isa = PBXGroup;
 			children = (
+				96148B141FD106AD0041D78A /* Default-568h@2x.png */,
 				96D8627A1FD0DAC300F02776 /* Trickster */,
 				96D862921FD0DAC300F02776 /* TricksterTests */,
 				96D862791FD0DAC300F02776 /* Products */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96D862891FD0DAC300F02776 /* LaunchScreen.storyboard in Resources */,
+				96148B151FD106AD0041D78A /* Default-568h@2x.png in Resources */,
 				96D862861FD0DAC300F02776 /* Assets.xcassets in Resources */,
 				96D862811FD0DAC300F02776 /* Main.storyboard in Resources */,
 			);
@@ -540,12 +544,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8HU92W3ZM;
-				INFOPLIST_FILE = Trickster/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Trickster/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laurennicoleroth.Trickster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -556,12 +561,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8HU92W3ZM;
-				INFOPLIST_FILE = Trickster/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Trickster/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laurennicoleroth.Trickster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

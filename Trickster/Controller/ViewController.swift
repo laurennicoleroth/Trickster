@@ -11,21 +11,34 @@ import UIKit
 class ViewController: UIViewController {
   
   @IBOutlet var demoImage: UIImageView!
-  @IBOutlet var successButton: UIButton!
-  @IBOutlet var failButton: UIButton!
   @IBOutlet var trickNumberLabel: UILabel!
-    
+  
+  var tricks = TrickBank(trickDifficulty: 1)
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    demoImage.image = UIImage(named: tricks.list[0].image)
   }
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+
   }
 
+  @IBAction func trickCompletedButtonPressed(_ sender: UIButton) {
+    
+    switch sender.tag {
+    case 1:
+      print("Good dog!")
+    case 2:
+      print("Try again!")
+    default:
+      print("oops")
+    }
+    
+  }
+  
 
 }
 
