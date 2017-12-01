@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		44C0BED137AF1C5C72747A82 /* Pods_Trickster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DABAE02F6D12D29D381FCE /* Pods_Trickster.framework */; };
 		96148B151FD106AD0041D78A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96148B141FD106AD0041D78A /* Default-568h@2x.png */; };
+		96148B1A1FD1E1CB0041D78A /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96148B171FD1E1CB0041D78A /* ProgressHUD.bundle */; };
+		96148B1B1FD1E1CB0041D78A /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 96148B191FD1E1CB0041D78A /* ProgressHUD.m */; };
 		96D8627C1FD0DAC300F02776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D8627B1FD0DAC300F02776 /* AppDelegate.swift */; };
 		96D8627E1FD0DAC300F02776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D8627D1FD0DAC300F02776 /* ViewController.swift */; };
 		96D862811FD0DAC300F02776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D8627F1FD0DAC300F02776 /* Main.storyboard */; };
@@ -36,6 +38,10 @@
 		094A874F2926D3ABFB535B36 /* Pods-TricksterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TricksterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TricksterTests/Pods-TricksterTests.release.xcconfig"; sourceTree = "<group>"; };
 		89F7035BB29519ED8471280F /* Pods_TricksterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TricksterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96148B141FD106AD0041D78A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		96148B161FD1E1CA0041D78A /* Trickster-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trickster-Bridging-Header.h"; sourceTree = "<group>"; };
+		96148B171FD1E1CB0041D78A /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		96148B181FD1E1CB0041D78A /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		96148B191FD1E1CB0041D78A /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		96D862781FD0DAC300F02776 /* Trickster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trickster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D8627B1FD0DAC300F02776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96D8627D1FD0DAC300F02776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -157,8 +163,12 @@
 		96D862A51FD0F61300F02776 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
+				96148B171FD1E1CB0041D78A /* ProgressHUD.bundle */,
+				96148B181FD1E1CB0041D78A /* ProgressHUD.h */,
+				96148B191FD1E1CB0041D78A /* ProgressHUD.m */,
 				96D8628A1FD0DAC300F02776 /* Info.plist */,
 				96D8627B1FD0DAC300F02776 /* AppDelegate.swift */,
+				96148B161FD1E1CA0041D78A /* Trickster-Bridging-Header.h */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -228,6 +238,7 @@
 				TargetAttributes = {
 					96D862771FD0DAC300F02776 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					96D8628E1FD0DAC300F02776 = {
@@ -264,6 +275,7 @@
 				96D862891FD0DAC300F02776 /* LaunchScreen.storyboard in Resources */,
 				96148B151FD106AD0041D78A /* Default-568h@2x.png in Resources */,
 				96D862861FD0DAC300F02776 /* Assets.xcassets in Resources */,
+				96148B1A1FD1E1CB0041D78A /* ProgressHUD.bundle in Resources */,
 				96D862811FD0DAC300F02776 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96148B1B1FD1E1CB0041D78A /* ProgressHUD.m in Sources */,
 				96D8627E1FD0DAC300F02776 /* ViewController.swift in Sources */,
 				96D862A11FD0F5DB00F02776 /* TrickBank.swift in Sources */,
 				96D8627C1FD0DAC300F02776 /* AppDelegate.swift in Sources */,
@@ -542,6 +555,7 @@
 			baseConfigurationReference = D07F91A74B59F47916909547 /* Pods-Trickster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8HU92W3ZM;
 				INFOPLIST_FILE = "$(SRCROOT)/Trickster/Supporting/Info.plist";
@@ -549,6 +563,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laurennicoleroth.Trickster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trickster/Supporting/Trickster-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -559,6 +575,7 @@
 			baseConfigurationReference = B4957D023C128BCE1983ABD5 /* Pods-Trickster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8HU92W3ZM;
 				INFOPLIST_FILE = "$(SRCROOT)/Trickster/Supporting/Info.plist";
@@ -566,6 +583,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laurennicoleroth.Trickster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trickster/Supporting/Trickster-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -23,11 +23,11 @@ class TrickBank {
     default:
       print("Create a trickbank")
     }
-    
-    
   }
   
   func createLevelOne() {
-    self.list.append(Trick(trickName: "Sit", demoImage: "sit.gif"))
+    self.list.append(Trick(trickName: "Sit", demoImage: "sit", difficulty: 0))
+    self.list.append(Trick(trickName: "Paw", demoImage: "paw", difficulty: 0))
+    self.list.append(Trick(trickName: "Catch", demoImage: "catch", difficulty: 1))
   }
 }

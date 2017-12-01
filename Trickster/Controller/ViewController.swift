@@ -17,18 +17,16 @@ class ViewController: UIViewController {
   @IBOutlet var progressView: UIView!
   
   var tricks = TrickBank(trickDifficulty: 1)
-  var score : Int {
-    return tricks.list[trickNumber].successCount
-  }
+  var score : Int = 0
   var trickNumber : Int = 0
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    trickNumberLabel.text = "\(trickNumber + 1) / \(tricks.list.count)"
     trickNameLabel.text = tricks.list[trickNumber].name.uppercased()
     demoImage.image = UIImage(named: tricks.list[trickNumber].image)
-    trickNumberLabel.text = "\(trickNumber + 1) / \(tricks.list.count)"
-    
+     progressView.frame.size.width = (view.frame.size.width / CGFloat(tricks.list.count)) * CGFloat(trickNumber)
   }
 
   override func didReceiveMemoryWarning() {
@@ -42,24 +40,47 @@ class ViewController: UIViewController {
     case 1:
       print("Good dog!")
       tricks.list[trickNumber].successCount += 1
-      updateUI()
+      score += 1
+      ProgressHUD.showSuccess("Good dog!!")
     case 2:
       print("Try again!")
+      tricks.list[trickNumber].successCount -= 1
     default:
       print("oops")
     }
     
-    checkTrick()
+    checkTrickScore()
+    
+    updateUI()
     
   }
   
+  func checkTrickScore() {
+    print("Success on this trick: ", tricks.list[trickNumber].successCount)
+    
+    if trickNumber < tricks.list.count - 1 {
+      trickNumber += 1
+    } else {
+      print("Ask user if they want to try another trick")
+    }
+  }
+  
   func updateUI() {
+    
+    trickNameLabel.text = tricks.list[trickNumber].name.uppercased()
+    demoImage.image = UIImage(named: tricks.list[trickNumber].image)
+    trickNumberLabel.text = "\(trickNumber + 1) / \(tricks.list.count)"
     scoreLabel.text = "\(score)"
+    progressView.frame.size.width = (view.frame.size.width / CGFloat(tricks.list.count)) * CGFloat(trickNumber)
+    
+//    progressLabel.text = String(trickNumber) + "\(tricks.list.count)"
+    
+    nextTrick()
   }
   
   func nextTrick() {
-    if trickNumber < tricks.count = 1 {
-//      trickNameLabel.text = allQuestions.list[questionNumber].questionText
+    if trickNumber < tricks.list.count {
+      trickNameLabel.text = tricks.list[trickNumber].name
     }
     else {
       let alert = UIAlertController(title: "Awesome", message: "You've finished all the questions, do you want to start over?", preferredStyle: .alert)
@@ -74,12 +95,6 @@ class ViewController: UIViewController {
     }
   }
   
-  func checkTrick() {
-    if score > 5 {
-      print("Your dog is doing well!")
-      nextTrick()
-    }
-  }
   
   func startOver() {
     

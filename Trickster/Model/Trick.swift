@@ -13,9 +13,11 @@ class Trick {
   let image : String
   let level : Int = 0
   var successCount : Int = 0
+  var difficulty : Int
   
-  init(trickName: String, demoImage: String) {
+  init(trickName: String, demoImage: String, difficulty: Int) {
     self.name = trickName
     self.image = demoImage
+    self.difficulty = difficulty
   }
 }
