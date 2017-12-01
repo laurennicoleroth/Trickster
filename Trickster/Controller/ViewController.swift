@@ -72,6 +72,7 @@ class ViewController: UIViewController {
     
     if trickNumber <= tricks.list.count - 1 {
       trickNameLabel.text = tricks.list[trickNumber].name
+      demoImage.image = UIImage(named: tricks.list[trickNumber].image )
     }
     else {
       let alert = UIAlertController(title: "Awesome", message: "You've finished all the tricks, do you want to start over?", preferredStyle: .alert)
