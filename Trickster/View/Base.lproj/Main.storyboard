@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -21,13 +26,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwO-sk-8ac">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="345"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sit" translatesAutoresizingMaskIntoConstraints="NO" id="H5R-hv-z5A">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sit" translatesAutoresizingMaskIntoConstraints="NO" id="H5R-hv-z5A">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="345"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.168471396" green="0.51802176239999997" blue="0.82454192640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="H5R-hv-z5A" firstAttribute="leading" secondItem="mwO-sk-8ac" secondAttribute="leading" constant="67" id="B08-M2-JGA"/>
+                                    <constraint firstItem="H5R-hv-z5A" firstAttribute="leading" secondItem="mwO-sk-8ac" secondAttribute="leading" id="B08-M2-JGA"/>
                                     <constraint firstItem="H5R-hv-z5A" firstAttribute="top" secondItem="mwO-sk-8ac" secondAttribute="top" id="Iw3-0x-vvu"/>
                                     <constraint firstItem="H5R-hv-z5A" firstAttribute="centerX" secondItem="mwO-sk-8ac" secondAttribute="centerX" id="NBb-0o-sip"/>
                                     <constraint firstAttribute="bottom" secondItem="H5R-hv-z5A" secondAttribute="bottom" id="R7W-Ws-UXr"/>
@@ -81,25 +86,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xWh-sQ-SY5" userLabel="Lower Contianer">
                                 <rect key="frame" x="0.0" y="345" width="375" height="275"/>
                                 <subviews>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ky0-74-99V" userLabel="False Button">
-                                        <rect key="frame" x="222" y="60" width="128" height="56"/>
-                                        <color key="backgroundColor" red="0.78738981490000004" green="0.2464441359" blue="0.27221894260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Try Again">
-                                            <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="trickCompletedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tpy-aJ-8qL"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89M-bd-umz" userLabel="True Button">
-                                        <rect key="frame" x="25" y="60" width="128" height="56"/>
+                                        <rect key="frame" x="25" y="74" width="128" height="56"/>
                                         <color key="backgroundColor" red="0.19115509089999999" green="0.63786703349999996" blue="0.26147949700000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="Gym-0V-YEP"/>
@@ -119,16 +107,42 @@
                                             <action selector="trickCompletedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nyG-h5-2Jd"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88e-Ey-Hmb">
+                                        <rect key="frame" x="8" y="6" width="359" height="46"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ky0-74-99V" userLabel="False Button">
+                                        <rect key="frame" x="222" y="74" width="128" height="56"/>
+                                        <color key="backgroundColor" red="0.78738981490000004" green="0.2464441359" blue="0.27221894260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Try Again">
+                                            <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="trickCompletedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tpy-aJ-8qL"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.168471396" green="0.51802176239999997" blue="0.82454192640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="89M-bd-umz" firstAttribute="leading" secondItem="xWh-sQ-SY5" secondAttribute="leading" constant="25" id="G67-Ri-NIx"/>
                                     <constraint firstAttribute="trailing" secondItem="Ky0-74-99V" secondAttribute="trailing" constant="25" id="JuY-aI-Fhi"/>
-                                    <constraint firstItem="89M-bd-umz" firstAttribute="top" secondItem="xWh-sQ-SY5" secondAttribute="top" constant="60" id="Tsa-MW-y23"/>
+                                    <constraint firstItem="88e-Ey-Hmb" firstAttribute="leading" secondItem="xWh-sQ-SY5" secondAttribute="leading" constant="8" id="QSV-d4-VyC"/>
+                                    <constraint firstItem="89M-bd-umz" firstAttribute="top" secondItem="xWh-sQ-SY5" secondAttribute="top" constant="74" id="Tsa-MW-y23"/>
                                     <constraint firstItem="89M-bd-umz" firstAttribute="width" secondItem="Ky0-74-99V" secondAttribute="width" id="U7N-DG-fza"/>
+                                    <constraint firstAttribute="trailing" secondItem="88e-Ey-Hmb" secondAttribute="trailing" constant="8" id="UMH-Dv-Axb"/>
                                     <constraint firstItem="Ky0-74-99V" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="89M-bd-umz" secondAttribute="trailing" constant="30" id="YD3-ya-PJW"/>
                                     <constraint firstItem="89M-bd-umz" firstAttribute="height" secondItem="Ky0-74-99V" secondAttribute="height" id="jpx-JZ-8is"/>
-                                    <constraint firstItem="Ky0-74-99V" firstAttribute="top" secondItem="xWh-sQ-SY5" secondAttribute="top" constant="60" id="zAY-zw-2e5"/>
+                                    <constraint firstItem="89M-bd-umz" firstAttribute="top" secondItem="88e-Ey-Hmb" secondAttribute="bottom" constant="22" id="mh8-vy-Pdm"/>
+                                    <constraint firstItem="Ky0-74-99V" firstAttribute="top" secondItem="xWh-sQ-SY5" secondAttribute="top" constant="74" id="zAY-zw-2e5"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -155,6 +169,9 @@
                     </view>
                     <connections>
                         <outlet property="demoImage" destination="H5R-hv-z5A" id="Viq-Dq-jTa"/>
+                        <outlet property="progressView" destination="biH-TO-2RD" id="T6V-Fa-RdG"/>
+                        <outlet property="scoreLabel" destination="pqZ-Lg-FAF" id="Fuf-nT-6iH"/>
+                        <outlet property="trickNameLabel" destination="88e-Ey-Hmb" id="Ico-0Q-OwF"/>
                         <outlet property="trickNumberLabel" destination="JKk-gi-aY2" id="KUp-Ka-lR8"/>
                     </connections>
                 </viewController>

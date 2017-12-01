@@ -12,7 +12,7 @@ class Trick {
   let name : String
   let image : String
   let level : Int = 0
-  let successCount : Int = 0
+  var successCount : Int = 0
   
   init(trickName: String, demoImage: String) {
     self.name = trickName
