@@ -147,6 +147,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ld6-FM-ysy"/>
                     </view>
+                    <connections>
+                        <outlet property="demoImage" destination="H5R-hv-z5A" id="Viq-Dq-jTa"/>
+                        <outlet property="failButton" destination="Ky0-74-99V" id="1F3-7b-al4"/>
+                        <outlet property="successButton" destination="89M-bd-umz" id="PCP-n4-1zl"/>
+                        <outlet property="trickNumberLabel" destination="JKk-gi-aY2" id="KUp-Ka-lR8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

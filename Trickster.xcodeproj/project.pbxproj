@@ -15,6 +15,8 @@
 		96D862861FD0DAC300F02776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D862851FD0DAC300F02776 /* Assets.xcassets */; };
 		96D862891FD0DAC300F02776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D862871FD0DAC300F02776 /* LaunchScreen.storyboard */; };
 		96D862941FD0DAC300F02776 /* TricksterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D862931FD0DAC300F02776 /* TricksterTests.swift */; };
+		96D8629F1FD0F5D400F02776 /* Trick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D8629E1FD0F5D400F02776 /* Trick.swift */; };
+		96D862A11FD0F5DB00F02776 /* TrickBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D862A01FD0F5DB00F02776 /* TrickBank.swift */; };
 		9E331C18A8185B2BA8AB0802 /* Pods_TricksterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F7035BB29519ED8471280F /* Pods_TricksterTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,8 @@
 		96D8628F1FD0DAC300F02776 /* TricksterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TricksterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D862931FD0DAC300F02776 /* TricksterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TricksterTests.swift; sourceTree = "<group>"; };
 		96D862951FD0DAC300F02776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D8629E1FD0F5D400F02776 /* Trick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trick.swift; sourceTree = "<group>"; };
+		96D862A01FD0F5DB00F02776 /* TrickBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickBank.swift; sourceTree = "<group>"; };
 		B4957D023C128BCE1983ABD5 /* Pods-Trickster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trickster.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trickster/Pods-Trickster.release.xcconfig"; sourceTree = "<group>"; };
 		D07F91A74B59F47916909547 /* Pods-Trickster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trickster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trickster/Pods-Trickster.debug.xcconfig"; sourceTree = "<group>"; };
 		D1DABAE02F6D12D29D381FCE /* Pods_Trickster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trickster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,13 +106,10 @@
 		96D8627A1FD0DAC300F02776 /* Trickster */ = {
 			isa = PBXGroup;
 			children = (
-				96D8627B1FD0DAC300F02776 /* AppDelegate.swift */,
-				96D8627D1FD0DAC300F02776 /* ViewController.swift */,
-				96D8627F1FD0DAC300F02776 /* Main.storyboard */,
-				96D862851FD0DAC300F02776 /* Assets.xcassets */,
-				96D862871FD0DAC300F02776 /* LaunchScreen.storyboard */,
-				96D8628A1FD0DAC300F02776 /* Info.plist */,
-				96D862821FD0DAC300F02776 /* Trickster.xcdatamodeld */,
+				96D862A41FD0F60B00F02776 /* Controller */,
+				96D862A21FD0F5E400F02776 /* Model */,
+				96D862A31FD0F5F700F02776 /* View */,
+				96D862A51FD0F61300F02776 /* Supporting */,
 			);
 			path = Trickster;
 			sourceTree = "<group>";
@@ -120,6 +121,43 @@
 				96D862951FD0DAC300F02776 /* Info.plist */,
 			);
 			path = TricksterTests;
+			sourceTree = "<group>";
+		};
+		96D862A21FD0F5E400F02776 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96D862821FD0DAC300F02776 /* Trickster.xcdatamodeld */,
+				96D8629E1FD0F5D400F02776 /* Trick.swift */,
+				96D862A01FD0F5DB00F02776 /* TrickBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96D862A31FD0F5F700F02776 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96D8627F1FD0DAC300F02776 /* Main.storyboard */,
+				96D862851FD0DAC300F02776 /* Assets.xcassets */,
+				96D862871FD0DAC300F02776 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96D862A41FD0F60B00F02776 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96D8627D1FD0DAC300F02776 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96D862A51FD0F61300F02776 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				96D8628A1FD0DAC300F02776 /* Info.plist */,
+				96D8627B1FD0DAC300F02776 /* AppDelegate.swift */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 		F697132CCD6E64269C62977B /* Frameworks */ = {
@@ -340,8 +378,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				96D8627E1FD0DAC300F02776 /* ViewController.swift in Sources */,
+				96D862A11FD0F5DB00F02776 /* TrickBank.swift in Sources */,
 				96D8627C1FD0DAC300F02776 /* AppDelegate.swift in Sources */,
 				96D862841FD0DAC300F02776 /* Trickster.xcdatamodeld in Sources */,
+				96D8629F1FD0F5D400F02776 /* Trick.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

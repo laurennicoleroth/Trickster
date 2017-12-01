@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  @IBOutlet var demoImage: UIImageView!
+  @IBOutlet var successButton: UIButton!
+  @IBOutlet var failButton: UIButton!
+  @IBOutlet var trickNumberLabel: UILabel!
+    
 
   override func viewDidLoad() {
     super.viewDidLoad()
