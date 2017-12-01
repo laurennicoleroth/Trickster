@@ -7,3 +7,27 @@
 //
 
 import Foundation
+
+class TrickBank {
+  
+  var list = [Trick]()
+  var difficulty : Int
+  
+  init(trickDifficulty: Int) {
+    self.difficulty = trickDifficulty
+    switch difficulty {
+    case 1:
+      createLevelOne()
+    case 2:
+      print("Create intermediate level")
+    default:
+      print("Create a trickbank")
+    }
+    
+    
+  }
+  
+  func createLevelOne() {
+    self.list.append(Trick(trickName: "Sit", demoImage: "sit.gif"))
+  }
+}
